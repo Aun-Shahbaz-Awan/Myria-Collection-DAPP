@@ -9,7 +9,7 @@ export default function Minter() {
   // const {}
   let inputRef = useRef();
 
-  const env = EnvTypes.STAGING;
+  const env = EnvTypes.PRODUCTION;
 
   //------------------------------------------------------------------------------------------------
   const mintingManager = new MintingManager(env);
